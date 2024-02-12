@@ -2,6 +2,8 @@
 
 int main() {
     std::cout << "Hello, world!" << std::endl;
-    int*** a = new int**[10];
+    int b = 69;    
+    int* a = &b;
+    std::cout << "Number:" << *a << std::endl;
     return 0;
 }
